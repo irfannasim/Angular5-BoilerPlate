@@ -1,0 +1,65 @@
+<div class="app-content-body">
+    <div class="user-login-5">
+        <div class="row bs-reset">
+            <div class="col-md-6 bs-reset mt-login-5-bsfix">
+            </div>
+            <div class="col-md-6 login-container bs-reset mt-login-5-bsfix">
+                <div class="login-content">
+                    <h1>Welcome to Boiler Plate</h1>
+                    <p> Irfan Nasim Agnular 6 BoilerPlate.</p>
+                    <form id="loginForm" class="login-form" #form="ngForm">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="wrap-input100 validate-input">
+                                    <input class="form-control form-control-solid placeholder-no-fix form-group input100"
+                                           type="text" required
+                                           (keyup.enter)="login(form)" [(ngModel)]="username"
+                                           name="username" #name="ngModel" pattern="[a-zA-Z0-9-_. @]+"/>
+                                    <span class="focus-input100" data-placeholder="Enter UserName or Email"></span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="wrap-input100 validate-input">
+                                    <input class="form-control form-control-solid placeholder-no-fix form-group input100"
+                                           type="password" name="pass" required
+                                           (keyup.enter)="login(form)" [(ngModel)]="password"
+                                           #pass="ngModel"/>
+                                    <span class="focus-input100" data-placeholder="Password"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="rem-password">
+                                    <label class="rememberme mt-checkbox mt-checkbox-outline">
+                                        <input type="checkbox" name="remember" value="1"/> Remember me
+                                        <span></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 text-right">
+                                <div class="forgot-password">
+                                    <a href="javascript:;" id="forget-password" class="forget-password">Forgot
+                                        Password?</a>
+                                </div>
+                                <button class="btn green" (click)="login(form)" type="button">Sign In</button>
+                                <button class="btn green" (click)="navigateToDashbaord()" type="button">Dashboard</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="login-footer">
+                    <div class="row bs-reset">
+                        <div class="col-xs-6 col-xs-offset-1">
+                            <div class="login-copyright">
+                                <p>Copyright &copy; HIS 2018</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 bs-reset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

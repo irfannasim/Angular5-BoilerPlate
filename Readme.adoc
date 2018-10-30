@@ -1,0 +1,69 @@
+= Angular5 & Webpack Foundation
+
+This is a project contains the following technologies:
+
+* Angular 5
+* Webpack
+* Angular Material 5
+* ng2-toastr 4.1.2
+
+== Installation and Getting Started
+
+Make sure the below things are already installed on your system:
+
+* Node 8.0
+* Webstorm IDE - version / any HTML and JavaScript editor
+* Internet connected
+
+* Clone the Repository by using below command
+
+[indent=0]
+----
+	git clone https://github.com/irfannasim/Angular5-BoilerPlate.git
+----
+
+* Import into WebStorm IDE
+* Run Below command into webstorm terminal to download node_modules
+
+----
+	npm install
+----
+
+* For Port configuraiton and RunTime configuration find the below file to update:
+
+[indent=0]
+----
+	package.json
+----
+
+After successfull downloding of node modules, application is fully configured. you can run. cheers...!!!
+
+== HOW to RUN / WHERE to START 
+
+* You have to run the below command to start webpack server / start the application.
+
+[indent=0]
+----
+	npm start
+----
+
+* Application will start on `8181` port, and you can access the application by below url:
+
+[indent=0]
+----
+	http://localhost:8181
+----
+
+== HOW to Create Build
+
+* You have to run the below command to create build:
+
+[indent=0]
+----
+	npm run build
+----
+
+* Build will be created in `dist` folder of project
+* now you have to deploy it on any webserver like `apache2`
+
+Enjoy ...!!

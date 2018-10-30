@@ -1,0 +1,27 @@
+/*@import "/node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";*/
+
+
+.redsnackbar{
+    color: green;
+}
+.snackbar-success{color: #0c91e5}
+
+.red-snackbar{
+    color: red;
+}
+.loading {
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: -1;
+}
+/* .loading screen is visible when app is not bootstrapped yet, my-app is empty */
+my-app:empty + .loading {
+    opacity: 1;
+    z-index: 100;
+}
