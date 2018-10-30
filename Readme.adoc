@@ -29,7 +29,7 @@ Make sure the below things are already installed on your system:
 	npm install
 ----
 
-* For Port configuraiton and RunTime configuration find the below file to update:
+* For Port configuraiton and RunTime configuration find the below file to update accordingly:
 
 [indent=0]
 ----
